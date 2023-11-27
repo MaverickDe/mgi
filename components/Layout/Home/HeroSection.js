@@ -1,12 +1,10 @@
 import Image from "next/image";
 import toppngImage from "../../../public/images/images/toppng-image.svg";
-import { gelasio } from "@/fonts/general_fonts";
-
-
+import { gelasio, intria } from "@/fonts/general_fonts";
 
 const HeroSection = () => { 
   return (
-    <section>
+    <section>in
       <div className="flex">
         <div className="w-[114.84px] h-[120.19px]">
           <Image
@@ -21,7 +19,7 @@ const HeroSection = () => {
             Don’t Settle for Less. Achieve Business Excellence with Marshall
             Goodman Industries.
           </p>
-          <p className="text-secondary2">
+          <p className={`${intria.className} text-secondary2 text-[24px] text-center`}>
              Kickstart Your Business Visibility With The Ultimate IT Partner
           </p>
         </div>

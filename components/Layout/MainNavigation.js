@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 import MGIlogo from "../../public/images/logo/MGI-logo.svg";
 import { intria } from "@/fonts/general_fonts";
 
@@ -33,7 +32,7 @@ const MainNavigation = () => {
         ))}
       </nav>
 
-      <button className="bg-secondary text-[14px] font-bold rounded-[5px] py-2.5 px-3 text-white">Start Your Project</button>
+      <button className="bg-primary text-[14px] font-bold rounded-[5px] py-2.5 px-3 text-white">Start Your Project</button>
     </header>
   );
 };
