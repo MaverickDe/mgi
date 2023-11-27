@@ -1,10 +1,10 @@
 import Image from "next/image";
 import toppngImage from "../../../public/images/images/toppng-image.svg";
+import { gelasio } from "@/fonts/general_fonts";
 
-import { Gelasio } from "next/font/google";
-const gelasio = Gelasio({ subsets: ["latin"], weight:["400", "500", "600" , "700"] });
 
-const HeroSection = () => {
+
+const HeroSection = () => { 
   return (
     <section>
       <div className="flex">

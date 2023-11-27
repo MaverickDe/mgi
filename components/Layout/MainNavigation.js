@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Inria_Sans } from "next/font/google";
-const inter = Inria_Sans({ subsets: ["latin"], weight:["300", "400", "700"] });
+
 
 import MGIlogo from "../../public/images/logo/MGI-logo.svg";
+import { intria } from "@/fonts/general_fonts";
 
 const navData = [
   { title: "Home", link: "/" },
@@ -14,7 +14,7 @@ const navData = [
 
 const MainNavigation = () => {
   return (
-    <header className={`${inter.className} flex justify-between items-center pt-6 px-5 md:px-32 `}>
+    <header className={`${intria.className} flex justify-between items-center pt-6 px-5 md:px-32 `}>
       <div className="h-[51.51px] w-[68.32px]">
         <Image
           src={MGIlogo}
