@@ -1,6 +1,6 @@
 ## Project - marshall Goodman Industries Portfolio
 
-First, run the development server:
+Info:
 
 ```bash
 Product of Marshall Goodman Industries
