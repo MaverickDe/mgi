@@ -1,8 +1,9 @@
 import Image from "next/image";
-import MGIlogo from "../../public/images/logo/MGI-logo.svg";
 import Link from "next/link";
 import { Inria_Sans } from "next/font/google";
 const inter = Inria_Sans({ subsets: ["latin"], weight:["300", "400", "700"] });
+
+import MGIlogo from "../../public/images/logo/MGI-logo.svg";
 
 const navData = [
   { title: "Home", link: "/" },

@@ -2,24 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
-
-/* Add all the global styles here, Including color and fonts */
+/* Add all the global styles here, Including color  */
 :root {
-  --secondary-color: #ED3237;
-  --secondary-color-2: #1E1E1E
-}
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-body {
-  font-family: 'Inria Sans', sans-serif;
-  color: rgb(var(--foreground-rgb));
+  --primary-color: #ED3237;
+  --secondary-color-1: #1E1E1E;
+  --secondary-color-2: #7A7A7B;
 }
