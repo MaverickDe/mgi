@@ -14,8 +14,12 @@ module.exports = {
         primary:  "var(--primary-color)",
         secondary1: "var(--secondary-color-1)",
         secondary2: "var(--secondary-color-2)",
-        secondary3: "#262626"
+        secondary3: "#262626", 
+        secondary4: "#373435", 
       },
+      boxShadow: {
+        customShadow1: "0px 50px 60px 14px #22222224"
+      }
     },
   },
   plugins: [],
