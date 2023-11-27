@@ -1,4 +1,4 @@
-## Project - marshall Goodman Industries Portfolio
+## Project - Marshall Goodman Industries Portfolio
 
 Info:
 
