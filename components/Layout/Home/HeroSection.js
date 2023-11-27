@@ -17,11 +17,11 @@ const HeroSection = () => {
           />
         </div>
         <div className={gelasio.className}>
-          <p className="font-bold text-[34px] text-center">
+          <p className="font-bold text-[34px] text-center text-secondary3">
             Don’t Settle for Less. Achieve Business Excellence with Marshall
             Goodman Industries.
           </p>
-          <p>
+          <p className="text-secondary2">
              Kickstart Your Business Visibility With The Ultimate IT Partner
           </p>
         </div>

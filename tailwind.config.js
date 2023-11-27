@@ -11,8 +11,10 @@ module.exports = {
         intria: "var(--intria-sans)",
       },
       colors: {
-        secondary: "var(--primary-color)",
-        secondary2: "var(--secondary-color"
+        primary:  "var(--primary-color)",
+        secondary1: "var(--secondary-color-1)",
+        secondary2: "var(--secondary-color-2)",
+        secondary3: "#262626"
       },
     },
   },

@@ -25,7 +25,7 @@ const MainNavigation = () => {
           priority
         />
       </div>
-      <nav className="flex space-x-20 text-[14px] text-secondary2">
+      <nav className="flex space-x-20 text-[14px] text-secondary1">
         {navData.map((navObj, index) => (
           <Link key={index} href={navObj.link}>
             {navObj.title}
