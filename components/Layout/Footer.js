@@ -18,7 +18,7 @@ const Footer = () => {
   ) : (
     <footer
       className={`px-[10px] bg-[#262626] py-[100px] ${
-        !mwidth.isLaptop ? "text-[20px]" : "text-[10px]"
+        !mwidth.isLaptop ? "text-[16px]" : "text-[10px]"
       }`}
     >
       <div>
